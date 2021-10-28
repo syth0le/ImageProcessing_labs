@@ -1,7 +1,7 @@
 function main
-    image_path = 'царь1.jpg';
-    scale = 0.9;
-    angle = 30;
+    image_path = 'image.jpg';
+    scale = 0.7;
+    angle = 20;
 
     [img, distorted] = scaling_img(image_path, scale, angle);
 
